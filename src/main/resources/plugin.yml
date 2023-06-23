@@ -1,0 +1,19 @@
+name: TeleportationRequests
+version: '${project.version}'
+main: net.daechler.teleportationrequests.TeleportationRequests
+api-version: '1.19'
+authors: [Daechler]
+description: A lightweight plugin for teleportation requests.
+commands:
+  tpa:
+    description: Sends a teleportation request.
+  tpahere:
+    description: Sends a teleportation request to teleport the player to you.
+  tpaccept:
+    description: Accepts the teleportation request.
+  tpatoggle:
+    description: Disables/Enables the teleportation to you.
+  tpdeny:
+    description: Denies the teleportation request.
+  tpcancel:
+    description: Cancels a teleportation request to a specific player.
